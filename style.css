@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    margin-right: 20px;
+}
+
+.red {
+    background-color: red;
+}
+
+main {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    width: 500px;
+    height: 200px;
+    border: solid 2px;
+}
+
+.formas {
+    margin-top: 20px;
+    width: 210px;
+    height: 210px;
+    border: solid 2px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns {
+    margin-top: 20px;
+}
+
+.mama {
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+}
+
+.papa {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+    cursor: move;
+}
+
+.hermane {
+    width: 50px;
+    height: 50px;
+    background-color:darkkhaki;
+}
+
+@media (max-width: 576px) {
+    .caja {
+        width: 300px;
+        height: 200px;
+    }
+    
+    .formas {
+        margin-top: 20px;
+        width: 150px;
+        height: 150px;
+    }  
+}
