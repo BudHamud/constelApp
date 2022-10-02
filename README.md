@@ -1,0 +1,1 @@
+Aplicacion de constelaciones, proximamente en react
